@@ -46,7 +46,7 @@ status_reply_dict_lock = threading.Lock()
 # Value: telegram.Message
 status_reply_dict = {}
 # Key: update.message.message_id
-# Value: An object of DownloadStatus
+# Value: An object of Status
 download_dict = {}
 # Stores list of users and chats the bot is authorized to use in
 
